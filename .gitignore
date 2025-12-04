@@ -18,3 +18,5 @@ models/
 # IDE settings
 .vscode/
 .idea/
+
+temp_uploads/
