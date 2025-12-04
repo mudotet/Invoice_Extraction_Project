@@ -1,0 +1,20 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Data & Models (File nặng không up lên git)
+data/
+models/
+*.pt
+*.bin
+*.onnx
+
+# IDE settings
+.vscode/
+.idea/

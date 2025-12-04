@@ -1,0 +1,24 @@
+# --- Frontend & UI ---
+streamlit
+st-annotated-text  # Hỗ trợ hiển thị kết quả gán nhãn đẹp hơn trên Streamlit
+
+# --- OCR Engine ---
+paddlepaddle       # Nền tảng Deep Learning cho PaddleOCR (Mặc định bản CPU cho nhẹ)
+paddleocr>=2.6.0   # Thư viện OCR chính
+
+# --- Model & Training (LayoutLM) ---
+torch              # Pytorch backend
+torchvision        # Hỗ trợ xử lý ảnh cho Pytorch
+transformers       # Thư viện chứa model LayoutLM (Hugging Face)
+datasets           # Hỗ trợ tải và xử lý định dạng dữ liệu cho Transformers
+seqeval            # Thư viện tính điểm F1, Precision (Quan trọng để viết báo cáo)
+
+# --- Data Processing & Images ---
+pandas             # Xử lý bảng dữ liệu
+numpy              # Xử lý mảng số
+opencv-python      # Xử lý ảnh (cv2)
+Pillow             # Xử lý ảnh (PIL)
+
+# --- Utilities ---
+tqdm               # Thanh hiển thị tiến độ khi train model
+protobuf==3.20.* # BẮT BUỘC: Fix lỗi xung đột phiên bản thường gặp của PaddleOCR
